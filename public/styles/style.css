@@ -1,0 +1,33 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: url(/assets/stone-texture.jpg);
+}
+
+.center-wrapper {
+  height: 100vh; /* Full viewport height */
+}
+
+.login-btn{
+    border-radius: 5px;
+    background-color: rgb(227, 223, 217);
+    width: 50%;
+    color: rgb(0, 0, 0)
+}
+
+.login-btn:hover{
+    color: rgb(227, 223, 217);
+    background-color: black;
+}
+
+.form-container{
+    border: 2px solid rgba(165, 42, 42, 0.242);
+    border-radius: 25px;
+}
+
+.login-box h2{
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(230, 215, 193)
+}
